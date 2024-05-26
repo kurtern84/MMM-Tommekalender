@@ -1,0 +1,15 @@
+{
+  "name": "MMM-Tommekalender",
+  "version": "1.0.0",
+  "description": "En MagicMirror modul som henter og viser tømmekalender data fra HIKS.",
+  "main": "MMM-Tommekalender.js",
+  "scripts": {
+    "start": "node_modules/.bin/electron js/electron.js"
+  },
+  "author": "kurtern84",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "jsdom": "^16.4.0"
+  }
+}
