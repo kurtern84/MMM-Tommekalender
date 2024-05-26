@@ -1,5 +1,5 @@
 # MMM-Tommekalender
-MMM-Tommekalender is a MagicMirror² module that fetches and displays waste collection dates from HIKS.
+MMM-Tommekalender is a MagicMirror² module that fetches and displays waste collection dates from HIKS. (https://www.hiks.no/privat/tommekalender/)
    
 ### Screenshot
 
