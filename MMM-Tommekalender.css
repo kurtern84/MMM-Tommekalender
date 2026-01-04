@@ -1,0 +1,70 @@
+/* MMM-Tommekalender.css */
+
+/* Viktig: gjør at modulen ikke strekker seg utover innholdet */
+.MMM-Tommekalender {
+  color: #fff;
+  display: inline-block;
+  width: auto;
+  max-width: 420px;   /* juster etter ønsket bredde */
+}
+
+/* Tabell: ikke full bredde */
+.MMM-Tommekalender .tk-table {
+  width: auto;              /* IKKE 100% */
+  max-width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;      /* holder kolonner stabile innenfor max-width */
+}
+
+/* Kolonnebredder innenfor modulbredden */
+.MMM-Tommekalender .tk-col-type {
+  width: 72%;
+  text-align: left;
+}
+
+.MMM-Tommekalender .tk-col-date {
+  width: 28%;
+  text-align: right;
+}
+
+/* Header */
+.MMM-Tommekalender th {
+  color: #fff;
+  font-weight: 600;
+  padding: 0 0 10px 0;
+  white-space: nowrap;
+}
+
+/* Celler */
+.MMM-Tommekalender td {
+  color: #fff;
+  padding: 10px 0;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/* Ikon + tekst på én linje */
+.MMM-Tommekalender .tk-type-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.MMM-Tommekalender .tk-icon {
+  color: #fff;
+  width: 18px;
+  text-align: center;
+  flex: 0 0 18px;
+}
+
+.MMM-Tommekalender .tk-type-text {
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.MMM-Tommekalender .tk-date {
+  color: #fff;
+  display: inline-block;
+}
